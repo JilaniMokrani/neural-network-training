@@ -3,4 +3,4 @@ LABEL MAINTAINER="Jilani Mokrani"
 COPY ./main.py .
 ENV DATA_DIR=/data
 ENV MODEL_DIR=/models
-CMD python3 ./main.py
+CMD python3 ./main.py >> /models/output.log
