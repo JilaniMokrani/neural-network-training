@@ -89,7 +89,7 @@ earlystop = EarlyStopping(
 )
 
 callbacks = [earlystop, checkpoint]
-epochs = 50
+epochs = 1
 
 model.compile(
     optimizer= 'sgd',
