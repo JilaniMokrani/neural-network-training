@@ -104,3 +104,5 @@ model.fit(
     callbacks = callbacks,
     validation_data=validation_dataset
 )
+
+model.save("/models/song_clasifier.h5")
